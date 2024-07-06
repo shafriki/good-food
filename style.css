@@ -75,10 +75,99 @@
 }
 
 .btn:hover {
-    background-color: aliceblue;
-    color: black;
+    background-color: white;
+    color: rgb(82, 195, 3);
 }
 
 .btn-container{
     text-align: center;
+}
+
+#card-box{
+    width: 884px;
+    margin: 105px auto;
+    
+}
+
+#card-box .subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 10px;
+    
+
+}
+
+#card-box .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card .img-box{
+    width: 250px;
+}
+
+.card .img-box img{
+    width: 100%;
+}
+
+.card .shop{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 8px 20px 8px 20px;
+}
+
+.card .heading{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 23px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.card .brief {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;   
+    opacity: 0.7;
+
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
 }
