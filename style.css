@@ -75,8 +75,8 @@
 }
 
 .btn:hover {
-    background-color: white;
-    color: rgb(82, 195, 3);
+    background-color: red;
+    color: whitesmoke;
 }
 
 .btn-container{
@@ -143,16 +143,17 @@
     border-radius: 8px;
     background: rgba(82, 195, 3, 0.15);
     padding: 8px 20px 8px 20px;
+    
 }
 
 .card .heading{
     color: rgb(16, 16, 16);
-font-family: Work Sans;
-font-size: 23px;
-font-weight: 600;
-line-height: 29px;
-letter-spacing: 0%;
-text-align: center;
+    font-family: Work Sans;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
 .card .brief {
@@ -170,4 +171,65 @@ text-align: center;
 .card-container{
     display: flex;
     justify-content: space-between;
+}
+
+#about{
+    width: 1280px;
+display: flex;
+margin: 0 auto;
+  
+    
+}
+
+.about-img{
+    width: 640px;
+
+}
+.about-img img{
+    width: 100%;
+}
+.about-content{
+    margin: 90px auto;
+}
+.about-content h1{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 11px;
+
+}
+.about-content p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 27px;
+
+}
+#follow{
+    padding: 20px 6px 20px 6px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    text-align: center;
+
+}
+.link{
+    display: flex;
+    justify-content: center;
 }
